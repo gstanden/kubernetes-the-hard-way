@@ -22,7 +22,7 @@ Kubernetes The Hard Way guides you through bootstrapping a highly available Kube
 * [kubernetes](https://github.com/kubernetes/kubernetes) v1.21.0
 * [containerd](https://github.com/containerd/containerd) v1.4.4
 * [coredns](https://github.com/coredns/coredns) v1.8.3
-* [cni](https://github.com/containernetworking/cni) v0.9.1
+* [cni](https://github.com/containernetworking/cni) v0.9.1  (hoping to try out Project Antrea alternative to cni successfully with this)
 * [etcd](https://github.com/etcd-io/etcd) v3.4.15
 
 ## Labs
