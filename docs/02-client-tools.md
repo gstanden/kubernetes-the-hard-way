@@ -55,7 +55,7 @@ The `kubectl` command line utility is used to interact with the Kubernetes API S
 ### Linux
 
 ```
-wget https://storage.googleapis.com/kubernetes-release/release/v1.21.0/bin/linux/amd64/kubectl
+wget -4 https://storage.googleapis.com/kubernetes-release/release/v1.21.0/bin/linux/amd64/kubectl
 ```
 
 ```
