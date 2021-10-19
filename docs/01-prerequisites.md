@@ -2,7 +2,7 @@
 
 ## Platform
 
-This tutorial is being developed on a Lenovo P72 mobile worstation with 2Tb of NVME and 128Gb of RAM.  The Kubernetes components will be LXD-containerized.  The host platform for the LXD containers initially will be Ubuntu 20.04 and then once that is working ported over to the four Orabuntu-LXC-supported RedHat-family Linuxes (CentOS, Fedora, RedHat and Oracle Linux).
+This tutorial is being developed on a Lenovo P72 mobile worstation with 2Tb of NVME and 128Gb of RAM.  The Kubernetes components will be LXD-containerized.  The host platform for the LXD containers initially will be Ubuntu 20.04 and then once that is working ported over to the four Orabuntu-LXC-supported RedHat-family Linuxes (CentOS, Fedora, RedHat and Oracle Linux).  The LXD containers for the controllers and workers will be Ubuntu (probably 20.04 or 21.04 or maybe even 22.04 or maybe all of the above).  But it will be Ubuntu Linux.
 
 [Estimated cost] This is an LXD-containerized Kubernetes so it can be theoretically run on any infrastructure from at-home to cloud.
 
