@@ -27,7 +27,7 @@ Kubernetes The Hard Way guides you through bootstrapping a highly available Kube
 
 ## Labs
 
-This tutorial assumes you have access to the [Google Cloud Platform](https://cloud.google.com). While GCP is used for basic infrastructure requirements the lessons learned in this tutorial can be applied to other platforms.
+This tutorial makes no assumption about your platform for running Kubernetes, because this will be an LXD-containerized Kubernetes.  It does require adequate memory, CPU, and network resources.  More about that as I work through my rendition of "Kubernetes the hard way."
 
 * [Prerequisites](docs/01-prerequisites.md)
 * [Installing the Client Tools](docs/02-client-tools.md)
