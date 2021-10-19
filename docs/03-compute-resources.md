@@ -7,7 +7,7 @@ The Kubernetes [networking model](https://kubernetes.io/docs/concepts/cluster-ad
 
 > Setting up network policies is out of scope for this tutorial.
 
-An Orabuntu-LXC subnet is used for this (10.209.0.0/24).
+An Orabuntu-LXC subnet is used for this (10.209.0.0/24).  My EXTERNAL_IP (I guess) will be an IP address on the 10.240.0.0/24 network.  Need to figure that out since I'm not using a load balancer.
 
 ### Firewall Rules
 
