@@ -1,6 +1,6 @@
 # Prerequisites
 
-## Google Cloud Platform
+## Platform
 
 This tutorial is being developed on a Lenovo P72 mobile worstation with 2Tb of NVME and 128Gb of RAM.  The Kubernetes components will be LXC-containerized.  The host platform for the LXD containers initially will be Ubuntu 20.04 and then once that is working ported over to the four Orabuntu-LXC-supported RedHat-family Linuxes (CentOS, Fedora, RedHat and Oracle Linux).
 
