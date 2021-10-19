@@ -52,7 +52,6 @@ Create three LXD containers which will host the Kubernetes control plane:
 ```
 for i in {1..3} ; do eval echo "'lxc launch images:ubuntu/21.04 controller-${i} -p k8s' ; done
 ```
-
 ### Kubernetes Workers
 
 Each worker instance requires a pod subnet allocation from the Kubernetes cluster CIDR range. The pod subnet allocation will be used to configure container networking in a later exercise. The `pod-cidr` instance metadata will be used to expose pod subnet allocations to compute instances at runtime.
