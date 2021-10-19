@@ -2,7 +2,7 @@
 
 Kubernetes requires a set of machines to host the Kubernetes control plane and the worker nodes where containers are ultimately run. In this lab you will provision the compute resources required for running a secure and highly available Kubernetes cluster across a single [compute zone](https://cloud.google.com/compute/docs/regions-zones/regions-zones).
 
-> If your platform is a commerical cloud such as GCP, AWS, etc then ensure a default compute zone and region have been set as described in the [Prerequisites](01-prerequisites.md#set-a-default-compute-region-and-zone) lab.
+> If your platform is a commerical cloud such as GCP, AWS, etc then ensure a default compute zone and region have been set as described in the [Prerequisites](01-prerequisites.md#set-a-default-compute-region-and-zone) lab.  If you are doing this on a desktop or laptop then don't worry about this.
 
 ## Networking
 
